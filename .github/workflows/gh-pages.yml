@@ -19,7 +19,7 @@ jobs:
         run: |
           latexmk
           mkdir public
-          cp 2021a.pdf public/index.pdf
+          cp 2021a.pdf public/abstract.pdf
       - name: Deploy docs
         uses: peaceiris/actions-gh-pages@v3
         with:
